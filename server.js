@@ -9,7 +9,9 @@ app.get("/", (req, res) => {
 });
 
 app.post("/api/payment/confirm", (req, res) => {
-  
+  let data = "fllzQe5PDKwW1yrSZ2ad1Nc51h5pXhlH:UevuK51oBulAEQfU";
+  let buff = new Buffer(data);
+  let base64data = buff.toString("base64");
   res.json(req);
 });
 
