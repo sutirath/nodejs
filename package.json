@@ -11,7 +11,7 @@
   "engines": {
     "node": "12.18.x"
   },
-  "author": "",
+  "author": "sutirath",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
